@@ -306,6 +306,7 @@ b {
  color: #006E51;
 }
 .line{
+  border: none !important;
   width: 100%;
   background-color: black;
   border: 2px solid #006E51;
