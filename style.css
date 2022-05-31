@@ -299,13 +299,13 @@ b {
   padding: 20px;
   border-radius: 30px;
   font-size: 20px;
-  
+    overflow: hidden;
+    border: none;
 } 
 .underline:hover{
  color: #006E51;
 }
 .line{
-
   width: 100%;
   background-color: black;
   border: 2px solid #006E51;
@@ -313,9 +313,11 @@ b {
   border-radius: 30px;
   font-size: 20px;
 } 
-
+.service{
+  position: relative;
+}
 .goupBtn{
-  position: fixed;
+  position: absolute;
   bottom: 200px;
   right: 20px;
   background-color: #ffffff;
